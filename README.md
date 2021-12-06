@@ -40,17 +40,18 @@ python bot.py
 - c2f - 📽 to 📂
 - c2a - Convert telegram video file into audio
 - trim - Trim video 🎞
-- getlink - ⚡Get transfer.sh link of telegram file.
-- getlink1 - ⚡Get anonfiles.com link of telegram file.
-- getlink2 - ⚡Get bayfiles.com link of telegram file.
-- getlink3 - ⚡Get gofile.io link of telegram file.
-- storageinfo - 💾Use this command to check saved file.
+- tsh - ⚡Get transfer.sh link of telegram file.
+- anon - ⚡Get anonfiles.com link of telegram file.
+- bay - ⚡Get bayfiles.com link of telegram file.
+- go - ⚡Get gofile.io link of telegram file.
+- storage - 💾Use this command to check saved file.
 - generatecustomthumbnail - !Not Working
 - downloadmedia - 🔽Reply with the file you want to upload to the bot server.
 - clearffmpegmedia - 🗑️Use this command to delete saved media in the bot.
 - deletethumbnail - Use this command to delete thumbnails.
+- server - usage of server
 
-For FeedBack and Suggestions, please feel free to say in [@SpEcHlDe](https://telegram.dog/ThankTelegram)
+For FeedBack and Suggestions, please feel free to say to [ADARSH GOEL](HTTPS://T.ME/ADARSH_GOEL)
 
 #### LICENSE
 - GPLv3
