@@ -1,6 +1,6 @@
 from os import environ
 # Moved Back to asyncio-dev branch of pyrogram
-from pyrogram import Client, filters, InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram import Client, filters, inlineKeyboardButton, inlineKeyboardMarkup
 import pyshorteners
 
 API_ID = environ.get('API_ID')
@@ -25,8 +25,8 @@ async def link_handler(bot, update):
       try:
         s = pyshorteners.Shortener(api_key=API_KEY) 
         shortened_url = s.cuttly.short(link)
-        button = [[InlineKeyboardButton("Link 🔗", url=shortened_url)]]
-        markup = InlineKeyboardMarkup(button)
+        button = [[inlineKeyboardButton("Link 🔗", url=shortened_url)]]
+        markup = inlineKeyboardMarkup(button)
         await update.reply_text(text=f'Here is your shortlink \n`{shortened_url}`', reply_markup=markup, quote=True)
         
       except Exception as e:
@@ -35,8 +35,8 @@ async def link_handler(bot, update):
       try:
         s = pyshorteners.Shortener() 
         shortened_url = s.dagd.short(link)
-        button = [[InlineKeyboardButton("Link 🔗", url=shortened_url)]]
-        markup = InlineKeyboardMarkup(button)
+        button = [[inlineKeyboardButton("Link 🔗", url=shortened_url)]]
+        markup = inlineKeyboardMarkup(button)
         await update.reply_text(text=f'Here is your shortlink \n`{shortened_url}`', reply_markup=markup, quote=True)
         
       except Exception as e:
