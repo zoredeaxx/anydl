@@ -38,7 +38,7 @@ async def get_link(bot, update):
         await bot.delete_messages(
             chat_id=update.chat.id,
             message_ids=update.message_id,
-            revoke=True
+            revoke=False
         )
         return
     logger.info(update.from_user)
