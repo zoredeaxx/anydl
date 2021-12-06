@@ -42,7 +42,7 @@ async def get_link(bot, update):
         )
         return
     logger.info(update.from_user)
-    if update.reply_to_message is not None:
+    if update.reply_to_message is  None:
         reply_message = update.reply_to_message
         ybcd = random_char(5)
         download_location = Config.DOWNLOAD_LOCATION + "/" + f"{ybcd}" + "/"
