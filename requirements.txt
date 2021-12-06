@@ -3,7 +3,8 @@ beautifulsoup4
 hachoir
 numpy
 Pillow
-Pyrogram
+https://github.com/Mrvishal2k2/pyrogram-old/archive/asyncio-dev.zip 
+
 moviepy
 requests
 psutil
