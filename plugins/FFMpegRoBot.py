@@ -162,7 +162,7 @@ async def trim(bot, update):
         )
 
 
-@pyrogram.Client.on_message(pyrogram.filters.command(["storageinfo"]))
+@pyrogram.Client.on_message(pyrogram.filters.command(["storage"]))
 async def storage_info(bot, update):
     if update.from_user.id not in Config.AUTH_USERS:
         await bot.delete_messages(
