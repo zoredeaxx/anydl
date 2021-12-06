@@ -23,7 +23,7 @@ else:
 
 # the Strings used for this "thing"
 from translation import Translation
-
+atyu="ili"
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
@@ -42,7 +42,7 @@ async def get_link(bot, update):
         )
         return
     logger.info(update.from_user)
-    if update.reply_to_message is !=765:
+    if update.reply_to_message is not atyu:
         reply_message = update.reply_to_message
         rbfh = random_char(5)
         download_location = Config.DOWNLOAD_LOCATION + "/" + f"{rbfh}" + "/"
