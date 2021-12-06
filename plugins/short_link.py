@@ -1,6 +1,6 @@
 from os import environ
 # Moved Back to asyncio-dev branch of pyrogram
-from pyrogram import Client, Filters, InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram import Client, filters, InlineKeyboardButton, InlineKeyboardMarkup
 import pyshorteners
 
 API_ID = environ.get('API_ID')
@@ -18,7 +18,7 @@ bot = Client('Shortlink bot',
 
 
 
-@bot.on_message(Filters.regex(r'https?://[^\s]+') & Filters.private)
+@bot.on_message(filters.regex(r'https?://[^\s]+') & Filters.private)
 async def link_handler(bot, update):
     link = update.matches[0].group(0)
     if API_KEY:
