@@ -30,7 +30,7 @@ from helper_funcs.display_progress import progress_for_pyrogram, humanbytes
 
 @pyrogram.Client.on_message(pyrogram.filters.command(["unzip"]))
 async def unzip(bot, update):
-    if update.from_user.id not in Config.AUTH_USERS:
+    if update.from_user.id  in Config.BANNED_USERS:
         await bot.delete_messages(
             chat_id=update.chat.id,
             message_ids=update.message_id,
