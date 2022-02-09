@@ -16,7 +16,7 @@ An Open Source ALL-In-One Telegram RoBot, that can do lot of things.
 
 #### The Easy Way
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mynameisuaername/ANYDL/tree/main)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 #### The Hard Way
 
@@ -51,7 +51,7 @@ python bot.py
 - deletethumbnail - Use this command to delete thumbnails.
 - server - usage of server
 
-For FeedBack and Suggestions, please feel free to say to [ADARSH GOEL](HTTPS://T.ME/ADARSH_GOEL)
+For FeedBack and Suggestions, please feel free to say to [ADARSH GOEL](HTTPS://T.ME/ADARSHgoelz)
 
 #### LICENSE
 - GPLv3
